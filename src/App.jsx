@@ -1,14 +1,9 @@
-import CountdownTimer from "./components/CountdownTimer";
-import React, { useEffect, useState } from "react";
+import React from 'react'
 
-function App() {
+export default function App() {
   return (
-    <>
-      {/* <CountdownTimer /> */}
-      <h2>Hello 11</h2>
-      <p>world</p>
-    </>
-  );
+    <div>
+      Hello world
+    </div>
+  )
 }
-
-export default App;
